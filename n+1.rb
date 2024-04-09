@@ -10,7 +10,6 @@ blogs.each do |blog|
   blog.student.email
 end
 
-
 # Eager Loading
 
 @blogs = Blog.includes(:student)
